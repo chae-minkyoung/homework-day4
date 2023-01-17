@@ -14,6 +14,7 @@ for k in range(0,3):
 start1='! '.join(start1)
 for i in range(0, 6):
     rhymes1=''.join(rhymes[i][0]).capitalize()
-    print(start1,'! '+ rhymes1)
-
+    print(start1+'! '+rhymes1)
+    rhymes2=''.join(rhymes[i][1])
+    print(start2,rhymes2)
 
