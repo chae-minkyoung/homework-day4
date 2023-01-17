@@ -1,8 +1,5 @@
-life = {'animals':{'cats':'Henri','octopi':'Grumpy','emus':'Lucy'},
-        'plants':{},
-        'other':{},
-        }
-print(life['animals']['cats'])
+squares={number : number*number for number in range(10)}
+print(squares)
 
 
 
