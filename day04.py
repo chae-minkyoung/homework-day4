@@ -1,6 +1,4 @@
-key=('optimus','pessimist','troll')
-value=('The glass is half full', 'The glass is half empty', 'How did you get a glass')
-dict={key : value for key, value in zip(key,value)}
-print(dict)
-
-
+titles=['Creature of Habit','Crewel Fate']
+plots=['A nun turns into a mom ster', 'A haunted yarn shop']
+movies = {titles:plots for titles, plots in zip(titles,plots)}
+print(movies)
