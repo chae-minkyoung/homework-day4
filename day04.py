@@ -1,20 +1,14 @@
-start1 = ["fee", "fie", "foe"]
-rhymes = [
- ("flop", "get a mop"),
- ("fope", "turn the rope"),
- ("fa", "get your ma"),
- ("fudge", "call the judge"),
- ("fat", "pet the cat"),
- ("fog", "walk the dog"),
- ("fun", "say we're done"),
- ]
-start2 = "Someone better"
-for k in range(0,3):
-    start1[k]=start1[k].capitalize()
-start1='! '.join(start1)
-for i in range(0, 6):
-    rhymes1=''.join(rhymes[i][0]).capitalize()
-    print(start1+'! '+rhymes1)
-    rhymes2=''.join(rhymes[i][1])
-    print(start2,rhymes2)
+e2f={'dog':'chien',
+     'cat':'chat',
+     'walrus':'morse'
+     }
+while True:
+    english = input('영어로 : (종료는 1)')
+    if english in e2f:
+        print(f'영어로{english}는 프랑스어로 {e2f[english]}입니다.')
+    elif english=='1':
+        break
+    else:
+        print('다시 입력하세요')
+
 
